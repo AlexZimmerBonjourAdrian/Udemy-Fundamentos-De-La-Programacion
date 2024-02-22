@@ -1,0 +1,18 @@
+class Player:
+     def __init__(self, Nombre, Life):
+        self.Nombre = Nombre
+
+     def getNombre(self):
+         return self.Nombre
+        
+     def setNombre(self,Nombre):
+         self.Nombre = Nombre
+
+     def getLife(self):
+         return self.Life
+        
+     def setLife(self,Nombre):
+         self.Life = Life
+
+     def ImprimirMesanje(self):
+        print("Esta funcion probiene del padre")
