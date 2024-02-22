@@ -11,8 +11,8 @@ class Player:
      def getLife(self):
          return self.Life
         
-     def setLife(self,Nombre):
-         self.Life = Life
+     def setLife(self,life):
+         self.Life = life
 
      def ImprimirMesanje(self):
         print("Esta funcion probiene del padre")

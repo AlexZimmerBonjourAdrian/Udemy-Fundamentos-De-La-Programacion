@@ -6,40 +6,18 @@ class auto:
         def __init__(self, marca, modelo):
             self.marca = marca
             self.modelo = modelo
-
-
-       
+               
         def getMarca(self):
             return self.marca 
         
         def setMarca(self,Marca):
             self.marca = Marca
 
-        # def setMarca(self,Marca):
-        #     self.marca = Marca
-        # def getMarca():
-        #     return self.marca 
-
-
-        # def setMarca(self,Marca):
-        #     self.marca = Marca
-        # def getMarca():
-        #     return self.marca 
-
-
-        # def setMarca(self,Marca):
-        #     self.marca = Marca
-        # def getMarca():
-        #     return self.marca 
-
-
-        # def setMarca(self,Marca):
-        #     self.marca = Marca
-        # def getMarca():
-        #     return self.marca 
-
-
-            
+        def setMarca(self,Modelo):
+             self.modelo = Modelo
+        
+        def getMarca():
+             return self.modelo   
          
         def __del__(self):
         #Los destructores son eliminar el objeto, y que realicen alguna accion o ejecuten un metodo antes se pueden utilizar este metodo

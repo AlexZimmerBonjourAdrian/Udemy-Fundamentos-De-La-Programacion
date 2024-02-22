@@ -5,6 +5,17 @@ class Companiero(Player):
         self.IsAttacando = IsAttacando
         self.IsReclutado = IsReclutado
 
+    def getNombre(self):
+         return self.IsAttacando
+        
+    def setNombre(self,isAttacando):
+         self.IsAttacando= isAttacando
+
+    def getIsReclutado(self):
+         return self.IsReclutado
+        
+    def setLife(self,isReclutado):
+         self.IsReclutado = isReclutado
 
 companiero = Companiero("Companiero",100 , False, False)
 

@@ -1,7 +1,7 @@
 #classes structure
 #Las clases son objetos que tiene tanto su propia definicion y comportamiento
 #Esta es una clase celular
-#esto es una clase limpia sin muchas cosas que el faltan
+#esto es una clase limpia sin la mitad e elementos faltantes 
 class Celular():
     marca = "Sansung"
     modelo = "S23"
