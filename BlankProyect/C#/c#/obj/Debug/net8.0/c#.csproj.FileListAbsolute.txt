@@ -1,0 +1,15 @@
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.AssemblyInfoInputs.cache
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.AssemblyInfo.cs
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.csproj.CoreCompileInputs.cache
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.sourcelink.json
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\bin\Debug\net8.0\c#.exe
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\bin\Debug\net8.0\c#.deps.json
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\bin\Debug\net8.0\c#.runtimeconfig.json
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\bin\Debug\net8.0\c#.dll
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\bin\Debug\net8.0\c#.pdb
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.dll
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\refint\c#.dll
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.pdb
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\c#.genruntimeconfig.cache
+E:\Github_E\Udemy-Fundamentos-De-La-Programacion\SolvedProyect\C#\c#\obj\Debug\net8.0\ref\c#.dll
