@@ -1,6 +1,6 @@
 #Cree todas las clases y archivos que dese para los ejercicios
 
-#son 5 Ejercicios
+#son 4 Ejercicios
 
 #1 Ejercicio, crear dos o tres clases, en el cual una de ellas llame a los metodos de esta esta clase, acuando como clase maestra que pide llama y arma lo que esas clases da
 # Puede ser lo que ustedes quieran 
@@ -16,9 +16,8 @@
 
 #Tip:Casting
 
-#4 En base a lo anterior, aplicar una clase que posea una interfaz para llamar a metodos de las classes
-#Una clase que sea enemigo y descuente vida de los hijos o un objeto que se guarde 
-
+#4 En base a lo anterior, aplicar una clase que llame al jugador y le desuente al mismo como el mismo le descuente vida, metodos de las classes
+#Una clase que sea enemigo que descuente vida a los hijos del player.
 
 
 #Nota: estos ejercicios te los proponen para hacer como practicas o entregas en universidad
@@ -37,26 +36,31 @@
 #Ejercicio Juego del ahorcado, Dar la posibilidad de crear varias partidas
 #Ejercicio Programa que selecciona un numero aleatoriamente un numero secreto de un rango predefinido (Por ejemplo, de 1 al 100), dalre pistas al jugador para poder adivinar EJ "Demasiado bajo" "Demasiado alto"
 
-#Ejercicio de adivinar donde esta la pelota en uno de los tras basos
+#Ejercicio de adivinar donde esta la pelota en uno de los tres vasos
 
 #Juego de batalla Naval
 
 #Ejercicio Juego de 21BlackJack 
+
+
+
+#Ejercicios muy dificiles
 
 #Ejercicio Crear un juego Snake simplicidado y basico
 
 #Juego Shoot em Up juego de disparos de aviones simple
 
 # Ejercicio Combinar todo lo anteriormente hablado en una version simplificada de un juego de ajedrez, no se preocupen por la visual, se puede dibujar con colores y una matriz
+
 #PyGame podria ser una forma visual si deverdad quieren extenderse mas en esto
 
-#Crear un mapa: Puedes representar el dungeon como una cuadrícula de casillas. Cada casilla puede tener un tipo de terreno (pasillo, pared, puerta, etc.) y puede contener objetos, enemigos o el jugador.
+#Crear una dungeon crawl, Puedes representar el dungeon como una cuadrícula de casillas. Cada casilla puede tener un tipo de terreno (pasillo, pared, puerta, etc.) y puede contener objetos, enemigos o el jugador.
 
-#Movimiento del jugador: Permite al jugador moverse por el dungeon utilizando comandos como "arriba", "abajo", "izquierda" y "derecha". Asegúrate de verificar si el movimiento es válido y actualizar la posición del jugador en el mapa.
+    #Movimiento del jugador: Permite al jugador moverse por el dungeon utilizando comandos como "arriba", "abajo", "izquierda" y "derecha". Asegúrate de verificar si el movimiento es válido y actualizar la posición del jugador en el mapa.
 
-#Interacción con el entorno: Implementa la capacidad de que el jugador interactúe con elementos del dungeon, como abrir puertas, recoger objetos o luchar contra enemigos. Puedes agregar mecánicas de combate básicas, como ataques y defensa.
+    #Interacción con el entorno: Implementa la capacidad de que el jugador interactúe con elementos del dungeon, como abrir puertas, recoger objetos o luchar contra enemigos. Puedes agregar mecánicas de combate básicas, como ataques y defensa.
 
-#Objetivos y niveles: Define un objetivo para el juego, como encontrar un tesoro o derrotar a un jefe final. Puedes diseñar varios niveles de dificultad, cada uno con su propio mapa y desafíos.
+    #Objetivos y niveles: Define un objetivo para el juego, como encontrar un tesoro o derrotar a un jefe final. Puedes diseñar varios niveles de dificultad, cada uno con su propio mapa y desafíos.
 
-#Sistema de puntuación: Agrega un sistema de puntuación para que el jugador pueda competir consigo mismo o con otros jugadores. Por ejemplo, puedes asignar puntos por la cantidad de enemigos derrotados o tesoros encontrados.
+    #Sistema de puntuación: Agrega un sistema de puntuación para que el jugador pueda competir consigo mismo o con otros jugadores. Por ejemplo, puedes asignar puntos por la cantidad de enemigos derrotados o tesoros encontrados.
 

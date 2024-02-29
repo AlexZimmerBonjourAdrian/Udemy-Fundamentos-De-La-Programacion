@@ -7,10 +7,13 @@ class Game:
         self.intentos = intentos
         self.number = None
 
+    #Start
      def StartGame(self):
         self.numero = self.RandomNumber()
         self.PlayGame()
-    
+
+    #clase principal del juego
+    #GameLoop o Update
      def PlayGame(self):
             print("Tienes" +  " " + (str)(self.intentos)  + " numero de Intentos ")
             print(" ")
@@ -19,14 +22,15 @@ class Game:
             self.LoseCondition()
             
         
-
+ #Logica del juego
      def RandomNumber(self):
             RandomNumber = (int)(random.randrange(0,10))
             print(" ")
             print("Ya pense en un numero")
             
             return RandomNumber
-        
+            
+        #Win COndition
      def WinCondition(self): 
             print(" ")
             print("Ganaste felicitaciones!")
@@ -50,7 +54,7 @@ class Game:
                 self.WinCondition() 
         
         
-        
+        #Lose Condition
      def LoseCondition(self):
             self.intentos -=  1
             if(self.intentos <= 0):
@@ -58,7 +62,7 @@ class Game:
                 sys.exit()
             else:
                 self.PlayGame()
-
+    #Logica del juego
      def SelectNumber(self):
             print(" ")
             print("Se eligio un numero de 0 al 10")
@@ -70,7 +74,7 @@ class Game:
                 print("No es un numero valido")
                 self.PlayGame()
             return numero
-
+ #Logica del juego
      def CharacterBarcks(self, numero_ingresado, numero_a_adivinar):
            
             print("Adivina que numero estoy pensando")
