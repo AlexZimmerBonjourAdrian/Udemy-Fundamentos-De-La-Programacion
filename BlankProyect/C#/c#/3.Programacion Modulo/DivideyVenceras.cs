@@ -4,39 +4,47 @@ namespace learn
     public class DivideyVenceras()
     {
 
-        public void IntroduccionunAño()
+        public void IntroducirAño()
         {
-            Console.WriteLine("Ingrese un año:");
+            Console.Write("Ingrese su Anio: ");
             string year = Console.ReadLine();
-
             int yearint = Int32.Parse(year);
-
-            bool isLearpYear = EsVissiesto(yearint);
-        }
-        private bool EsVissiesto(int date)
-
-        {
-            if(date % 4 == 0)
+            bool IsLeapYear = IsBisiesto(yearint);
+            if (IsLeapYear)
             {
-                if(date % 100 == 0)
-                {
-                    if(date % 400 == 0)
-                    {
-                        Console.WriteLine("la fecha " + date + "es visiesto");
-                        return true;
-                    }
-                }
+                Console.WriteLine("El año es {0} es Bisiesto", year);
+               
             }
             else
             {
-                Console.WriteLine("El año no es visiesto");
+                Console.WriteLine("El Año {0} no es Bisiesto", year);
             }
             
+
+        }
+
+        private bool IsBisiesto(int date)
+        {
+
+            if (date % 4 == 0)
+            {
+                if (date % 100 == 0)
+                {
+                    if (date % 400 == 0)
+                    {
+                        Console.WriteLine("es Bisiesto");
+                        return true;
+                    }
+                }
+                else
+                {
+                    return true;
+
+                }
+            }
             return false;
         }
 
     }
-
-
 
 }

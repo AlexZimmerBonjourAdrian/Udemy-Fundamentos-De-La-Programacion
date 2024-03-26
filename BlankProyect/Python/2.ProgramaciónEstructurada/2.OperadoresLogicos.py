@@ -1,35 +1,39 @@
-# #operadores logicos 
+#Operadores Logicos
 
-# numero_1 = 10
-# numero_2 = 10
+numero_1 = 12
+numero_2 = 13
+numero_3 = 20
 
-
-
-#operadores logicos
-
-#<
-#>
-#==
-#!=
+#Operadores Racionales
+# #<
+# if(numero_1 < numero_2):
+#      print(numero_1, "Es menor que", numero_2)
+# #>
+# elif(numero_1 > numero_2):
+#      print(numero_1, "Es mayor que", numero_2)
 #<=
+# if(numero_1 <= numero_2):
+#      print(numero_1, "Es menor igual que", numero_2)
 #>=
-#not 
+# elif(numero_1 >= numero_2):
+#      print(numero_1, "Es mayor igual que", numero_2)
+#!=
+# if(numero_1 != numero_2):
+#      print(numero_1, "Es diferente a que", numero_2)
+# #==
+# elif(numero_1 == numero_2):
+#      print(numero_1, "Es igual que", numero_2)
+#Operadores Logicos
 
-numero_1 = 3
-numero_2 = 10
-numero_3 = 3
-#if
-if numero_1 < numero_2 and numero_1 != numero_3:
-    print(str(numero_1) + " es menor a numero_2")
-elif numero_1 < numero_2 and numero_1 == numero_3: 
-      print(str(numero_1) + " es menor a numero_2 y el numeor 3 es igual a numero 1")
-#elif
-elif numero_1 > numero_2:
-     print(str(numero_1) + " es mayor a numero_2")
-#else
-else:
-     print(str(numero_1) + " es igual a numero_2")
+#And
+if(numero_1 == numero_2 and numero_1 < numero_3):
+     print(numero_1, "Es igual", numero_2, " y ", numero_1, "Es menor a ", numero_3)
+#Or
+if(numero_1 == numero_2 or numero_1 < numero_3):
+     print(numero_1, "Es igual", numero_2, " o ", numero_1, "Es menor a ", numero_3)
 
-#or
-#and
-#not
+#Not
+
+if(not(numero_1 == numero_2) and numero_1 < numero_3):
+     print(numero_1, "Es diferente", numero_2, " y ", numero_1, "Es menor a ", numero_3)
+

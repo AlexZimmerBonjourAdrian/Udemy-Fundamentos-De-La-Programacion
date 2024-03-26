@@ -38,3 +38,17 @@ del Celular_lista[0]
 #Produce un error ya que celular_1 y celular_2 dejaron de existir
 
 print(len(Celular_lista))
+
+
+# class Celular():
+#     #variables
+#     #Constructor
+#     def __init__(self,marca,modelo,camera):
+#         self.marca = marca
+#         self.modelo=modelo
+#         self.camera = camera
+
+#     def __del__(self):
+#         print("Borrando Objeto")
+
+# celular_1 = Celular("LG","x32","50MPX")

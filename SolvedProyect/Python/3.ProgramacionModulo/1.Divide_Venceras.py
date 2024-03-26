@@ -3,7 +3,7 @@
 #en partes y luego resolverlas por separado
 
 # pongamos lo siguiente, 
-# quiero hacun sistema  
+# quiero hacer un a calculadora  
 
 
 def calculadora():

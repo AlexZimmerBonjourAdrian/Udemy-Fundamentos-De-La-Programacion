@@ -3,33 +3,56 @@
 using namespace std;
 
 
-int suma(int* a,int* b) {
-    return (*a + *b);
-}
+#include<iostream>
+
+using namespace std;
+
+void sumar(int*);
 
 int main() {
    
-    int x = 5;
+    int x = 4;
+    cout << " " << endl;
+    //valor
+    cout << "Valor de x:" << x << endl;
+    //direccion de memoria
+    cout << "Direccion de memoria de x:" << &x << endl;
+    cout << " " << endl;
+
+    //Crear un puntero apuntando al valor de x
+
+    // asignar un puntero
     int* px = &x;
+    cout << " " << endl;
+    cout << "Valor de x;" << x << endl;
+    cout << "Valor de x:" << *px << endl;
+    cout << " " << endl;
 
-   /* cout << "Valor de x:" << x << endl;
-    cout << "Direccion de x: " << &x << endl;*/
-    cout << "valor de X: " << *px << endl; 
-    cout << "Direccion de X: " << px << endl;
+    //un puntero que apunta a una referencia
+    int** ppx = &px;
+    cout << " " << endl;
+    cout << "Valor de x:" << x << endl;
+    cout << "Valor de x:" << *px << endl;
+    cout << "Valor de x:" << **ppx << endl;
+    cout << " " << endl;
 
-    int a = 8, b = 5;
+    int n = 4;
+    sumar(&n);
+    cout << n << endl;
+    sumar(&n);
+    cout << n << endl;
+    sumar(&n);
+    cout << n << endl;
+    system("Pause");
 
-    int valor = suma(&a,&b);
 
-    cout << "Valor de x después de incrementar: " << valor << endl;
-    
- 
-
-    delete &valor;
-
-    
-    cout << "Valor de x después de incrementar: " << valor << endl;
     return 0;
+}
+
+void sumar(int* x)
+{
+    *x = *x + 1;
+    cout << *x << endl;
 }
 
 

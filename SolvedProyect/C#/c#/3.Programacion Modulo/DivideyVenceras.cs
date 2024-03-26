@@ -4,7 +4,7 @@ namespace learn
     public class DivideyVenceras()
     {
         
-        public void IntroduccirUnAño()
+        public void IntroducirAño()
         {
             
             Console.Write("Ingrese su nombre: ");
@@ -26,7 +26,7 @@ namespace learn
             }
 
         }
-        private bool EsVisiesto(int date)
+        private bool  EsBisiesto(int date)
         {
                 if(date % 4 == 0) 
                 {
@@ -37,7 +37,12 @@ namespace learn
                             return true;
                         }
                     }
+					else
+					{
+						return true;
+					}
                 }
+				
                 return false;
         }
 

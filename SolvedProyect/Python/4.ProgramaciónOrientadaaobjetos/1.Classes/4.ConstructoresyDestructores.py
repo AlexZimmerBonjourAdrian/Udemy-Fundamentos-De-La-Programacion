@@ -49,7 +49,6 @@ class Coche:
         self.modelo = modelo
         self.velocidad = velocidad
 
-
 #__new__ Este método se llama antes de que se cree un nuevo objeto de una clase. Su función es crear un objeto vacío y luego se llena con datos en el método
 
 class Coche:

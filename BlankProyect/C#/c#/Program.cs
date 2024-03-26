@@ -1,10 +1,8 @@
 ﻿using learn;
 // See https://aka.ms/new-console-template for more information
 
+Console.WriteLine("Hello, Word");
 
-
-Console.WriteLine("Hello, World!");
-DivideyVenceras visiesto = new DivideyVenceras();
-visiesto.IntroduccionunAño();
-
+DivideyVenceras year = new DivideyVenceras();
+year.IntroducirAño();
 
